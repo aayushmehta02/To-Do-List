@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    
+}
+
+.task_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.placeholder{
+    min-height: 50px;
+    min-width: 400px;
+}
+.task{
+    background-color: beige;
+    min-height: 400px;
+    min-width: 50px;
+    
+}
+
+
+.input_area{
+    width: 75%;
+    height: 40px;
+    border: 3px solid black;
+}
+
+.addTaskButton{
+    cursor: pointer;
+    height: 45px;
+    width: 21.5%;
+    border: 3px solid black;
+}
+
+.addTaskButton:active{
+    border: 6px solid black;
+}
+
+
+.tasks{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.tasks:hover{
+    cursor: pointer;
+}
